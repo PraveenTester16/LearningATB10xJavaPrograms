@@ -67,9 +67,20 @@ public class Learn_String {
         String name4 = "   ROYAL ENFIELD   ";
         System.out.println(name4.trim());
 
-        // 18 . compare to
-        String sweetname= "Jilebi";
-        System.out.println(sweetname.compareTo("jilebi"));
+        // 18. compareTo()
+        System.out.println(name.compareTo("Praveen"));
+
+        // Compare to Ignorecase
+        System.out.println(name.compareToIgnoreCase("praveen"));
+
+        StringBuilder stringBuilder = new StringBuilder("Sonal");
+        stringBuilder.append("Patel");
+        System.out.println(stringBuilder);
+
+        StringBuilder sb = new StringBuilder("Hi");
+        sb.append(" It's my World!");
+        System.out.println(sb.toString());
+
 
 
 
